@@ -8,7 +8,7 @@ I've decided to "create" a drawing application that makes use of a Convolutional
 
 Given below is the workflow:
 
-![](images/CNN1.png)
+![](images/CNN1.PNG)
 
 ## CNN MODEL
 
@@ -17,7 +17,7 @@ The first part of this project is to prepare the data and build our model. The d
 The 6 classes of animals that I decided to go with are: Cat, Dog, Fish, Giraffe, Camel and Octopus, which makes it a Multiclass Classification.
 Here's a small sample of the dataset; a snippet of various hand-drawn figures of an Octopus.
 
-![](images/CNN2.png)
+![](images/CNN2.PNG)
 
 ## Preprocessing
 
@@ -41,7 +41,7 @@ Markup : * Convolutional Layer : 30 filters, (3 * 3) kernel size
 Once the model structure and architecture is defined, we just need to train it and evaluate its performances. 
 
 After having trained the model, it attains an accuracy of 90.3% after 8 epochs, which is sufficient for our recognition app. 
-![](images/CNN3.png)
+![](images/CNN3.PNG)
 
 
 ## Saving the model
@@ -66,7 +66,7 @@ Flask is a web micro-framework written in Python. It allows you to design a soli
 **Static folder**:  Style sheets, scripts, images and other elements that aren't generated dynamically are usually be stored in this folder. Our JavaScript and CSS files are placed in it. 
 
 This is how the template looks like:
-![](images/CNN4.png)
+![](images/CNN4.PNG)
 
 ## Get the user Input
 
@@ -83,7 +83,7 @@ Markup : * We import our css and js files located in the static folder using Jin
   
   After completing the aforementioned, the canvas looks like this: 
   
-  ![](images/CNN5.png)
+  ![](images/CNN5.PNG)
   
   Now that our canvas is ready to get the user’s drawing, we need to ensure that the image will be able to reach our app in app.py.
   
@@ -102,13 +102,13 @@ The **results.html** file is used to display the prediction computed in **app.py
 
 Once this is done, all that's left is to run the app. By default, it'll run on your local server *127.0.0.1:5000*. 
 
- ![](images/CNN6.png)
+ ![](images/CNN6.PNG)
  
  
- ![](images/CNN5.png)
+ ![](images/CNN5.PNG)
  
  
- ![](images/CNN7.png)
+ ![](images/CNN7.PNG)
  
  
  
