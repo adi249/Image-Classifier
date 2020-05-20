@@ -29,14 +29,14 @@ Finally, we split data between train and test, following the usual 80–20 ratio
 
 Our Keras model has the following structure: 
 
-Markup : * Convolutional Layer : 30 filters, (3 * 3) kernel size
-         * Max Pooling Layer : (2 * 2) pool size
-         * Convolutional Layer : 15 filters, (3 * 3) kernel size
-         * Max Pooling Layer : (2 * 2) pool size
-         * DropOut Layer : Dropping 20% of neurons.
-         * Flatten Layer
-         * Dense/Fully Connected Layer : 128 Neurons, Relu activation function
-         * Dense/Fully Connected Layer : 50 Neurons, Softmax activation function
+* Convolutional Layer : 30 filters, (3 * 3) kernel size
+* Max Pooling Layer : (2 * 2) pool size
+* Convolutional Layer : 15 filters, (3 * 3) kernel size
+* Max Pooling Layer : (2 * 2) pool size
+* DropOut Layer : Dropping 20% of neurons.
+* Flatten Layer
+* Dense/Fully Connected Layer : 128 Neurons, Relu activation function
+* Dense/Fully Connected Layer : 50 Neurons, Softmax activation function
          
 Once the model structure and architecture is defined, we just need to train it and evaluate its performances. 
 
@@ -74,12 +74,12 @@ This is how the template looks like:
 
 The second part of this project is to get the user input - a hand-drawn figure that will be classified by our trained model. In order to do so, we'll have to first design the drawing area (canvas) using javascript and HTML. The codes to these have been uploaded in the repository.
 
-Markup : * We import our css and js files located in the static folder using Jinja.
-         * Our drawing canvas is set up with the <canvas> tag.
-         * We call the drawCanvas() javascript function contained in draw.js.
-         * We initialize our form so we can use the POST method to send data to our flask instance/app.py.
-         * action = “{{url_for('predict')}” is again Jinja syntax. It specifies the path that will be used in app.py when submitting the form.
-         * We add an extra hidden field to our form which will be used to transfer the image.<input type = “hidden“ id =’url' name = ‘url' value = “”>
+ * We import our css and js files located in the static folder using Jinja.
+ * Our drawing canvas is set up with the <canvas> tag.
+ * We call the drawCanvas() javascript function contained in draw.js.
+ * We initialize our form so we can use the POST method to send data to our flask instance/app.py.
+ * action = “{{url_for('predict')}” is again Jinja syntax. It specifies the path that will be used in app.py when submitting the form.
+ * We add an extra hidden field to our form which will be used to transfer the image.<input type = “hidden“ id =’url' name = ‘url' value = “”>
   
   The JavaScript code makes it more dynamic and allows us design and interact with our drawing area.
   
