@@ -66,6 +66,8 @@ Flask is a web micro-framework written in Python. It allows you to design a soli
 **Static folder**:  Style sheets, scripts, images and other elements that aren't generated dynamically are usually be stored in this folder. Our JavaScript and CSS files are placed in it. 
 
 This is how the template looks like:
+
+
 ![](images/CNN4.PNG)
 
 ## Get the user Input
