@@ -1,6 +1,6 @@
 # Image-Classifier
 
-## This Project Focuses on Developing an Interactive Drawing Recognition App based on CNN, and is Deployed it with Flask
+## This Project Focuses on Developing an Interactive Drawing Recognition App based on CNN, and is Deployed with Flask
 
 
 Often times, building Machine Learning models ends up being a common task. However, once a certain model has been trained and tested, and the results are satisfactory, what do you do with it next? How would you deploy it online so that it can be used by the other people? This project mainly focuses on training the model and further deploying it. 
