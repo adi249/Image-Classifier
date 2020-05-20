@@ -110,7 +110,7 @@ Once this is done, all that's left is to run the app. By default, it'll run on y
  ![](images/CNN5.PNG)
  
  
- ![](images/CNN7.ong)
+ ![](images/CNN7.png)
  
  
  
